@@ -1,1 +1,2 @@
-git commit -A
+git commit -a
+git reset --hard
