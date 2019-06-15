@@ -10,9 +10,13 @@ def fibonacci(n)
   end
 end
 
+def usage
+  puts "Usage: ./fib.rb NUM"
+end
+
 if ARGV.length != 1
   puts "Error: NUM omitted."
-  puts "Usage: ./fib.rb NUM"
+  usage
   exit 1
 end
 
