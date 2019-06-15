@@ -10,5 +10,11 @@ def fibonacci(n)
   end
 end
 
+if ARGV.length != 1
+  puts "Error: NUM omitted."
+  puts "Usage: ./fib.rb NUM"
+  exit 1
+end
+
 puts fibonacci(ARGV[0].to_i)
     
