@@ -11,7 +11,7 @@ def fibonacci(n)
 end
 
 def usage
-  puts "Usage: ./fib.rb NUM"
+  puts "Usage: #{$0} NUM"
 end
 
 if ARGV.length != 1
