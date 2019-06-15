@@ -1,2 +1,6 @@
 git commit -a
 git reset --hard
+
+--
+
+hiki サーバーを kurobox.farm から raspberry pi へ移行する
