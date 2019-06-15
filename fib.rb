@@ -1,12 +1,12 @@
 #!/usr/bin/env ruby
 
 def fibonacci(n)
-  if n == 0
-    0
-  elsif n == 1
-    1
-  else
+  if n > 1
     fibonacci(n - 2) + fibonacci(n - 1)
+  elsif n == 0
+    0
+  else
+    1
   end
 end
 
