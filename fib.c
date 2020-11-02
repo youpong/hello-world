@@ -1,6 +1,6 @@
+#include "fib.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "fib.h"
 
 int fibonacci(int n) {
   if (n > 1) {
@@ -12,9 +12,9 @@ int fibonacci(int n) {
   }
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char **argv) {
   int n = 42;
-  
+
   if (argc == 2) {
     n = atoi(argv[1]);
   }
