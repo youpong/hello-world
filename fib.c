@@ -13,7 +13,9 @@ int fibonacci(int n) {
   }
 }
 
-int my_exit(int ex) { exit(ex); }
+static int my_exit(int ex) {
+  exit(ex);
+}
 
 static void test_fibonacci() {
   fibonacci(0) == 0 || my_exit(1);
